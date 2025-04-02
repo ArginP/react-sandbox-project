@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #839bb0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+
+  ol {
+    margin: 2rem;
+    li {
+      padding: 0.2rem;
+    }
+  }
+}
