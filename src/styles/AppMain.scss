@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background: #282d35 url("./src/assets/react.svg") no-repeat 60% 70%;
+  background-size: 200px;
+  color: #fff;
+  padding: 60px 30px;
+
+  h1 {
+    margin: 0;
+    font-size: 2.4rem;
+  }
+
+  .facts-list {
+    margin-top: 46px;
+    max-width: 350px;
+
+    li {
+      padding-block: 10px;
+      line-height: 19px;
+
+      &::marker {
+        color: #61dafb;
+      }
+    }
+  }
+}

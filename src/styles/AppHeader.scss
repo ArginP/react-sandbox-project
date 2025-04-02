@@ -1,0 +1,29 @@
+.app-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  padding: 30px 25px;
+  background-color: #21222a;
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 7px;
+
+    img {
+      width: 40px;
+      cursor: pointer;
+    }
+
+    span {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #61dafb;
+      cursor: pointer;
+    }
+  }
+}
