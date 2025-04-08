@@ -8,6 +8,4 @@
 - JavaScript
 - ReactJS 19
 
-## Реализованный функционал:
-
 ## [Travel Journal App Deploy via GitHub Actions](https://arginp.github.io/react-sandbox-project/) 
